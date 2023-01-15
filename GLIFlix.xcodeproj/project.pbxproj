@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6005285A2973B134005DD224 /* ReviewCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600528592973B134005DD224 /* ReviewCellNode.swift */; };
+		6005285D2974016F005DD224 /* ErrorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6005285C2974016F005DD224 /* ErrorNode.swift */; };
+		600B1D27297152ED00C66C80 /* MoviePosterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B1D26297152ED00C66C80 /* MoviePosterNode.swift */; };
+		600B1D2929715B3C00C66C80 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B1D2829715B3C00C66C80 /* APIEndpoints.swift */; };
 		603CC669296FF60700C9F9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC668296FF60700C9F9B1 /* AppDelegate.swift */; };
 		603CC66B296FF60700C9F9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC66A296FF60700C9F9B1 /* SceneDelegate.swift */; };
-		603CC66D296FF60700C9F9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC66C296FF60700C9F9B1 /* ViewController.swift */; };
-		603CC670296FF60700C9F9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603CC66E296FF60700C9F9B1 /* Main.storyboard */; };
 		603CC672296FF60900C9F9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603CC671296FF60900C9F9B1 /* Assets.xcassets */; };
 		603CC675296FF60900C9F9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603CC673296FF60900C9F9B1 /* LaunchScreen.storyboard */; };
+		603CC681296FFF9C00C9F9B1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC680296FFF9C00C9F9B1 /* Movie.swift */; };
+		603CC685297002AC00C9F9B1 /* MovieResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC684297002AC00C9F9B1 /* MovieResponseDTO+Mapping.swift */; };
+		603CC68929700DB500C9F9B1 /* MoviesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC68829700DB500C9F9B1 /* MoviesUseCase.swift */; };
+		603CC69229706B3200C9F9B1 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603CC69129706B3200C9F9B1 /* MainScreenViewController.swift */; };
+		60C6791C297292EA00B3A2B1 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C6791B297292EA00B3A2B1 /* MovieInfoViewController.swift */; };
+		60C6791E2972966400B3A2B1 /* MovieInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C6791D2972966400B3A2B1 /* MovieInfoViewModel.swift */; };
+		60C679212972AD5700B3A2B1 /* GeneralInfoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C679202972AD5700B3A2B1 /* GeneralInfoNode.swift */; };
+		60E0EABC2971114500D3AB3D /* MainScreenViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E0EABB2971114500D3AB3D /* MainScreenViewmodel.swift */; };
+		60EDAAC22972E37D007E6499 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDAAC12972E37D007E6499 /* Review.swift */; };
+		60EDAAC42972E41F007E6499 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDAAC32972E41F007E6499 /* Author.swift */; };
+		60EDAAC62972F4F7007E6499 /* ReviewResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDAAC52972F4F7007E6499 /* ReviewResponseDTO+Mapping.swift */; };
+		60EDAAC82972F9FA007E6499 /* AuthorResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDAAC72972F9FA007E6499 /* AuthorResponseDTO+Mapping.swift */; };
+		60EDAACA29730B97007E6499 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDAAC929730B97007E6499 /* Video.swift */; };
+		BBE5BA635320039B0F442F88 /* Pods_GLIFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7100395CC7C4FD4B0FA3AC /* Pods_GLIFlix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D8AE45C9DFAA2B9FBD86C7 /* Pods-GLIFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLIFlix.debug.xcconfig"; path = "Target Support Files/Pods-GLIFlix/Pods-GLIFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		51145EA4C31B0AF460B0F48D /* Pods-GLIFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLIFlix.release.xcconfig"; path = "Target Support Files/Pods-GLIFlix/Pods-GLIFlix.release.xcconfig"; sourceTree = "<group>"; };
+		600528592973B134005DD224 /* ReviewCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCellNode.swift; sourceTree = "<group>"; };
+		6005285C2974016F005DD224 /* ErrorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorNode.swift; sourceTree = "<group>"; };
+		600B1D26297152ED00C66C80 /* MoviePosterNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterNode.swift; sourceTree = "<group>"; };
+		600B1D2829715B3C00C66C80 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
 		603CC665296FF60700C9F9B1 /* GLIFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLIFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603CC668296FF60700C9F9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		603CC66A296FF60700C9F9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		603CC66C296FF60700C9F9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		603CC66F296FF60700C9F9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		603CC671296FF60900C9F9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603CC674296FF60900C9F9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603CC676296FF60900C9F9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603CC680296FFF9C00C9F9B1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		603CC684297002AC00C9F9B1 /* MovieResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MovieResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		603CC68829700DB500C9F9B1 /* MoviesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUseCase.swift; sourceTree = "<group>"; };
+		603CC69129706B3200C9F9B1 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		60C6791B297292EA00B3A2B1 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
+		60C6791D2972966400B3A2B1 /* MovieInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewModel.swift; sourceTree = "<group>"; };
+		60C679202972AD5700B3A2B1 /* GeneralInfoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoNode.swift; sourceTree = "<group>"; };
+		60E0EABB2971114500D3AB3D /* MainScreenViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewmodel.swift; sourceTree = "<group>"; };
+		60EDAAC12972E37D007E6499 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		60EDAAC32972E41F007E6499 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		60EDAAC52972F4F7007E6499 /* ReviewResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReviewResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		60EDAAC72972F9FA007E6499 /* AuthorResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthorResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		60EDAAC929730B97007E6499 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		9E7100395CC7C4FD4B0FA3AC /* Pods_GLIFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLIFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE5BA635320039B0F442F88 /* Pods_GLIFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B872A159BCCF78C4AFDC97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04D8AE45C9DFAA2B9FBD86C7 /* Pods-GLIFlix.debug.xcconfig */,
+				51145EA4C31B0AF460B0F48D /* Pods-GLIFlix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		600528582973B05E005DD224 /* ReviewNode */ = {
+			isa = PBXGroup;
+			children = (
+				600528592973B134005DD224 /* ReviewCellNode.swift */,
+			);
+			path = ReviewNode;
+			sourceTree = "<group>";
+		};
+		6005285B29740155005DD224 /* ErrorNode */ = {
+			isa = PBXGroup;
+			children = (
+				6005285C2974016F005DD224 /* ErrorNode.swift */,
+			);
+			path = ErrorNode;
+			sourceTree = "<group>";
+		};
 		603CC65C296FF60700C9F9B1 = {
 			isa = PBXGroup;
 			children = (
 				603CC667296FF60700C9F9B1 /* GLIFlix */,
 				603CC666296FF60700C9F9B1 /* Products */,
+				0B872A159BCCF78C4AFDC97A /* Pods */,
+				C8663BD536BC40228059C983 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +118,110 @@
 		603CC667296FF60700C9F9B1 /* GLIFlix */ = {
 			isa = PBXGroup;
 			children = (
+				603CC69029706AEC00C9F9B1 /* Presentation */,
+				603CC68C2970531400C9F9B1 /* Data */,
+				603CC67C296FF89B00C9F9B1 /* Domain */,
 				603CC668296FF60700C9F9B1 /* AppDelegate.swift */,
 				603CC66A296FF60700C9F9B1 /* SceneDelegate.swift */,
-				603CC66C296FF60700C9F9B1 /* ViewController.swift */,
-				603CC66E296FF60700C9F9B1 /* Main.storyboard */,
 				603CC671296FF60900C9F9B1 /* Assets.xcassets */,
 				603CC673296FF60900C9F9B1 /* LaunchScreen.storyboard */,
 				603CC676296FF60900C9F9B1 /* Info.plist */,
 			);
 			path = GLIFlix;
+			sourceTree = "<group>";
+		};
+		603CC67C296FF89B00C9F9B1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				603CC67F296FF8C800C9F9B1 /* UseCases */,
+				603CC67D296FF8A800C9F9B1 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		603CC67D296FF8A800C9F9B1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				603CC680296FFF9C00C9F9B1 /* Movie.swift */,
+				60EDAAC12972E37D007E6499 /* Review.swift */,
+				60EDAAC32972E41F007E6499 /* Author.swift */,
+				60EDAAC929730B97007E6499 /* Video.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		603CC67F296FF8C800C9F9B1 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				603CC68829700DB500C9F9B1 /* MoviesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		603CC682297001EF00C9F9B1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				603CC684297002AC00C9F9B1 /* MovieResponseDTO+Mapping.swift */,
+				60EDAAC52972F4F7007E6499 /* ReviewResponseDTO+Mapping.swift */,
+				60EDAAC72972F9FA007E6499 /* AuthorResponseDTO+Mapping.swift */,
+				600B1D2829715B3C00C66C80 /* APIEndpoints.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		603CC68C2970531400C9F9B1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				603CC682297001EF00C9F9B1 /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		603CC69029706AEC00C9F9B1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6005285B29740155005DD224 /* ErrorNode */,
+				600528582973B05E005DD224 /* ReviewNode */,
+				60C6791F2972ACFE00B3A2B1 /* GeneralInfoNode */,
+				60C6791A297292CE00B3A2B1 /* MovieInfo */,
+				60E0EABA297110F000D3AB3D /* MainScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		60C6791A297292CE00B3A2B1 /* MovieInfo */ = {
+			isa = PBXGroup;
+			children = (
+				60C6791B297292EA00B3A2B1 /* MovieInfoViewController.swift */,
+				60C6791D2972966400B3A2B1 /* MovieInfoViewModel.swift */,
+			);
+			path = MovieInfo;
+			sourceTree = "<group>";
+		};
+		60C6791F2972ACFE00B3A2B1 /* GeneralInfoNode */ = {
+			isa = PBXGroup;
+			children = (
+				60C679202972AD5700B3A2B1 /* GeneralInfoNode.swift */,
+			);
+			path = GeneralInfoNode;
+			sourceTree = "<group>";
+		};
+		60E0EABA297110F000D3AB3D /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				603CC69129706B3200C9F9B1 /* MainScreenViewController.swift */,
+				60E0EABB2971114500D3AB3D /* MainScreenViewmodel.swift */,
+				600B1D26297152ED00C66C80 /* MoviePosterNode.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		C8663BD536BC40228059C983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E7100395CC7C4FD4B0FA3AC /* Pods_GLIFlix.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603CC679296FF60900C9F9B1 /* Build configuration list for PBXNativeTarget "GLIFlix" */;
 			buildPhases = (
+				33680BAA86E09E8DDA311FFE /* [CP] Check Pods Manifest.lock */,
 				603CC661296FF60700C9F9B1 /* Sources */,
 				603CC662296FF60700C9F9B1 /* Frameworks */,
 				603CC663296FF60700C9F9B1 /* Resources */,
+				F1C95356574D70D4AD6AD18A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +286,83 @@
 			files = (
 				603CC675296FF60900C9F9B1 /* LaunchScreen.storyboard in Resources */,
 				603CC672296FF60900C9F9B1 /* Assets.xcassets in Resources */,
-				603CC670296FF60700C9F9B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33680BAA86E09E8DDA311FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLIFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C95356574D70D4AD6AD18A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLIFlix/Pods-GLIFlix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLIFlix/Pods-GLIFlix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLIFlix/Pods-GLIFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		603CC661296FF60700C9F9B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603CC66D296FF60700C9F9B1 /* ViewController.swift in Sources */,
+				60EDAAC42972E41F007E6499 /* Author.swift in Sources */,
+				60C6791E2972966400B3A2B1 /* MovieInfoViewModel.swift in Sources */,
+				60C6791C297292EA00B3A2B1 /* MovieInfoViewController.swift in Sources */,
+				603CC685297002AC00C9F9B1 /* MovieResponseDTO+Mapping.swift in Sources */,
+				60C679212972AD5700B3A2B1 /* GeneralInfoNode.swift in Sources */,
+				600B1D2929715B3C00C66C80 /* APIEndpoints.swift in Sources */,
+				60E0EABC2971114500D3AB3D /* MainScreenViewmodel.swift in Sources */,
+				60EDAACA29730B97007E6499 /* Video.swift in Sources */,
+				600B1D27297152ED00C66C80 /* MoviePosterNode.swift in Sources */,
+				60EDAAC22972E37D007E6499 /* Review.swift in Sources */,
 				603CC669296FF60700C9F9B1 /* AppDelegate.swift in Sources */,
+				6005285A2973B134005DD224 /* ReviewCellNode.swift in Sources */,
+				60EDAAC62972F4F7007E6499 /* ReviewResponseDTO+Mapping.swift in Sources */,
+				603CC68929700DB500C9F9B1 /* MoviesUseCase.swift in Sources */,
+				603CC681296FFF9C00C9F9B1 /* Movie.swift in Sources */,
+				60EDAAC82972F9FA007E6499 /* AuthorResponseDTO+Mapping.swift in Sources */,
 				603CC66B296FF60700C9F9B1 /* SceneDelegate.swift in Sources */,
+				6005285D2974016F005DD224 /* ErrorNode.swift in Sources */,
+				603CC69229706B3200C9F9B1 /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		603CC66E296FF60700C9F9B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				603CC66F296FF60700C9F9B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		603CC673296FF60900C9F9B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +490,7 @@
 		};
 		603CC67A296FF60900C9F9B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D8AE45C9DFAA2B9FBD86C7 /* Pods-GLIFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +519,7 @@
 		};
 		603CC67B296FF60900C9F9B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51145EA4C31B0AF460B0F48D /* Pods-GLIFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
