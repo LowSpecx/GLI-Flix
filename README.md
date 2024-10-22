@@ -1,6 +1,6 @@
 # GLI-Flix
 
-Introducing GLI-Flix, netflix app lookalike
+Introducing GLI-Flix, netflix app lookalike using themoviedb API
 
 Architecture: MVVM
 
