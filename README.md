@@ -1,7 +1,11 @@
-# GLI-Flix - Technical Test iOS Dev - Maurice Marciano Tin
+# GLI-Flix
 
-Architecture: MVVM + RxSwift
-Other Dependencies:
+Introducing GLI-Flix, netflix app lookalike
+
+Architecture: MVVM
+
+Libraries Used:
+- RxSwift
 - Texture
 - Alamofire
 - Youtube-Player-iOS-Helper
